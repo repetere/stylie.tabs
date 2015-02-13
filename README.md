@@ -1,0 +1,2 @@
+# stylie.tabs
+responsive tabs
