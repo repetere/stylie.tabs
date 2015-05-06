@@ -1,143 +1,167 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Stylie.tabs by typesettin</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Stylie.tabs</h1>
-      <h2 class="project-tagline">100% width tabbed content with some example media queries for smaller screens. </h2>
-      <a href="https://github.com/typesettin/stylie.tabs" class="btn">View on GitHub</a>
-      <a href="https://github.com/typesettin/stylie.tabs/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/typesettin/stylie.tabs/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<html class="ts">
 
-    <section class="main-content">
-      <h1>
-<a id="stylietabs" class="anchor" href="#stylietabs" aria-hidden="true"><span class="octicon octicon-link"></span></a>stylie.tabs</h1>
+<head>
+  <title>Stylie Tabs</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/example.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/stylie.tabs.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src='js/example.min.js'></script>
+</head>
 
-<p>100% width tabbed content with some example media queries for smaller screens.
- Inspired by <a href="http://tympanus.net/codrops/2014/03/21/responsive-full-width-tabs/">Responsive full width tabs</a></p>
+<body>
+  <div class="ts-container">
+    <header class="ts-text-container ts-clearfix">
+      <h1>CommonJS/Browserified Responsive Full Width Tabs</h1>
+      <p>100% width tabbed content with some example media queries for smaller screens.</br>Ported from CoDrops: <a href="http://tympanus.net/codrops/2014/03/21/responsive-full-width-tabs/">RESPONSIVE FULL WIDTH TABS</a>
+      </p>
+      <h3>Full API <a href="http://typesettin.github.io/stylie.tabs/api/html">documentation</a>
+      </h3>
 
-<p><a href="https://github.com/typesettin/stylie.tabs/blob/master/doc/api.md">API Documenation</a></p>
+    </header>
+    <main class="ts-text-container  ts-container-margin-xl">
+      <div id="tabs" class="ts-tabs">
+        <nav>
+          <ul>
+            <li>
+              <a href="#section-1" class="icon-shop">
+                <span>Shop</span>
+              </a>
+            </li>
+            <li>
+              <a href="#section-2" class="icon-cup">
+                <span>Drinks</span>
+              </a>
+            </li>
+            <li>
+              <a href="#section-3" class="icon-food">
+                <span>Food</span>
+              </a>
+            </li>
+            <li>
+              <a href="#section-4" class="icon-lab">
+                <span>Lab</span>
+              </a>
+            </li>
+            <li>
+              <a href="#section-5" class="icon-truck">
+                <span>Order</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="ts-tabs-content ts-text-sm">
+          <section id="section-1" class="ts-row ts-text-sm">
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/01.png" alt="img01" />
+              <h3>Sushi Gumbo Beetroot</h3>
+              <p>Sushi gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.</p>
+            </div>
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/02.png" alt="img02" />
+              <h3>Pea Sprouts Fava Soup</h3>
+              <p>Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.</p>
+            </div>
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/03.png" alt="img03" />
+              <h3>Turnip Broccoli Sashimi</h3>
+              <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p>
+            </div>
+          </section>
+          <section id="section-2" class="ts-row ts-text-sm">
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/04.png" alt="img04" />
+              <h3>Asparagus Cucumber Cake</h3>
+              <p>Chickweed okra pea winter purslane coriander yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane earthnut pea tomato spring onion azuki bean gourd.</p>
+            </div>
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/05.png" alt="img05" />
+              <h3>Magis Kohlrabi Gourd</h3>
+              <p>Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
+            </div>
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/06.png" alt="img06" />
+              <h3>Ricebean Rutabaga</h3>
+              <p>Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori.</p>
+            </div>
+          </section>
+          <section id="section-3" class="ts-row ts-text-sm">
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/02.png" alt="img02" />
+              <h3>Noodle Curry</h3>
+              <p>Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.Sushi gumbo beet greens corn soko endive gumbo gourd.</p>
+            </div>
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/06.png" alt="img06" />
+              <h3>Leek Wasabi</h3>
+              <p>Sushi gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.</p>
+            </div>
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/01.png" alt="img01" />
+              <h3>Green Tofu Wrap</h3>
+              <p>Pea horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi radish okra azuki bean corn fava bean mustard tigernut wasabi tofu broccoli mixture soup.</p>
+            </div>
+          </section>
+          <section id="section-4" class="ts-row ts-text-sm">
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/03.png" alt="img03" />
+              <h3>Tomato Cucumber Curd</h3>
+              <p>Chickweed okra pea winter purslane coriander yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane earthnut pea tomato spring onion azuki bean gourd.</p>
+            </div>
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/01.png" alt="img01" />
+              <h3>Mushroom Green</h3>
+              <p>Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
+            </div>
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/04.png" alt="img04" />
+              <h3>Swiss Celery Chard</h3>
+              <p>Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori.</p>
+            </div>
+          </section>
+          <section id="section-5" class="ts-row ts-text-sm">
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/02.png" alt="img02" />
+              <h3>Radish Tomato</h3>
+              <p>Catsear cauliflower garbanzo yarrow salsify chicory garlic bell pepper napa cabbage lettuce tomato kale arugula melon sierra leone bologi rutabaga tigernut.</p>
+            </div>
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/06.png" alt="img06" />
+              <h3>Fennel Wasabi</h3>
+              <p>Sea lettuce gumbo grape kale kombu cauliflower salsify kohlrabi okra sea lettuce broccoli celery lotus root carrot winter purslane turnip greens garlic.</p>
+            </div>
+            <div class="ts-col-span4 ts-screensm-col-span12 ts-screenxs-col-span12 ts-padding-lg">
+              <img class="ts-width-100" src="img/01.png" alt="img01" />
+              <h3>Red Tofu Wrap</h3>
+              <p>Green horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi radish okra azuki bean corn fava bean mustard tigernut wasabi tofu broccoli mixture soup.</p>
+            </div>
+          </section>
+        </div>
+        <!-- /content -->
+      </div>
+      <!-- /tabs -->
+    </main>
+    <footer>
+      <p class="info">Food Shapes/Icons by <a href="http://psdblast.com/50-food-icon-set-psd">PsdBlast</a>
+      </p>
+    </footer>
+  </div>
+  <script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-<h2>
-<a id="example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h2>
+  ga('create', 'UA-52892914-6', 'auto');
+  ga('send', 'pageview');
+  </script>
+</body>
 
-<p>Check out <code>example/index.html</code>, the example javascript for the example page is <code>resources/js/example_src.js</code></p>
-
-<h2>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
-
-<pre><code>$ npm install stylie.tabs
-</code></pre>
-
-<p>The tab component is a browserify javascript module.</p>
-
-<h2>
-<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
-
-<p><em>JavaScript</em></p>
-
-<div class="highlight highlight-javascript"><pre><span class="pl-k">var</span> StylieTabs <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>stylie.tabs<span class="pl-pds">'</span></span>),
-    myTabs;
-<span class="pl-c">//initialize nav component after the dom has loaded</span>
-<span class="pl-c1">window</span>.addEventListener(<span class="pl-s"><span class="pl-pds">'</span>load<span class="pl-pds">'</span></span>,<span class="pl-k">function</span>(){
-    <span class="pl-k">var</span> tabelement <span class="pl-k">=</span> <span class="pl-c1">document</span>.<span class="pl-c1">getElementById</span>(<span class="pl-s"><span class="pl-pds">'</span>tabs<span class="pl-pds">'</span></span>);
-    myTabs <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">StylieTabs</span>(tabelement);
-    <span class="pl-c">//expose your nav component to the window global namespace</span>
-    <span class="pl-c1">window</span>.myNav <span class="pl-k">=</span> myNav;
-});</pre></div>
-
-<p><em>HTML</em></p>
-
-<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">html</span>&gt;
-    &lt;<span class="pl-ent">head</span>&gt;
-    &lt;<span class="pl-ent">title</span>&gt;Your Page&lt;/<span class="pl-ent">title</span>&gt;
-    &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>[path/to]/stylie.tabs.css<span class="pl-pds">"</span></span>&gt;
-<span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">'</span>[path/to/browserify/bundle].js<span class="pl-pds">'</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
-    &lt;/<span class="pl-ent">head</span>&gt;
-    &lt;<span class="pl-ent">body</span>&gt;
-         &lt;<span class="pl-ent">div</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>tabs<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>tabs<span class="pl-pds">"</span></span>&gt;
-      &lt;<span class="pl-ent">nav</span>&gt;
-        &lt;<span class="pl-ent">ul</span>&gt;
-          &lt;<span class="pl-ent">li</span>&gt;
-            tab1
-          &lt;/<span class="pl-ent">li</span>&gt;
-          &lt;<span class="pl-ent">li</span>&gt;
-            tab2
-          &lt;/<span class="pl-ent">li</span>&gt;
-          &lt;<span class="pl-ent">li</span>&gt;
-            tab3
-          &lt;/<span class="pl-ent">li</span>&gt;
-        &lt;/<span class="pl-ent">ul</span>&gt;
-      &lt;/<span class="pl-ent">nav</span>&gt;
-      &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>content<span class="pl-pds">"</span></span>&gt;
-        &lt;<span class="pl-ent">section</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>section-1<span class="pl-pds">"</span></span>&gt;
-          any html
-        &lt;/<span class="pl-ent">section</span>&gt;
-        &lt;<span class="pl-ent">section</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>section-2<span class="pl-pds">"</span></span>&gt;
-          can go in here
-        &lt;/<span class="pl-ent">section</span>&gt;
-        &lt;<span class="pl-ent">section</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>section-3<span class="pl-pds">"</span></span>&gt;
-          this is fully responsive
-        &lt;/<span class="pl-ent">section</span>&gt;
-      &lt;/<span class="pl-ent">div</span>&gt;
-      <span class="pl-c">&lt;!-- /content --&gt;</span>
-    &lt;/<span class="pl-ent">div</span>&gt;
-    <span class="pl-c">&lt;!-- /tabs --&gt;</span>
-    &lt;/<span class="pl-ent">body</span>&gt;
-&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
-
-<h2>
-<a id="api" class="anchor" href="#api" aria-hidden="true"><span class="octicon octicon-link"></span></a>API</h2>
-
-<div class="highlight highlight-javascript"><pre>myNav.showTab(<span class="pl-c1">1</span>); <span class="pl-c">//show tab at index '1'</span></pre></div>
-
-<h2>
-<a id="development" class="anchor" href="#development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development</h2>
-
-<p><em>Make sure you have grunt installed</em></p>
-
-<pre><code>$ npm install -g grunt-cli
-</code></pre>
-
-<p>Then run grunt watch</p>
-
-<pre><code>$ grunt watch
-</code></pre>
-
-<p>For generating documentation</p>
-
-<pre><code>$ grunt doc
-$ jsdoc2md lib/**/*.js index.js &gt; doc/api.md
-</code></pre>
-
-<h2>
-<a id="notes" class="anchor" href="#notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes</h2>
-
-<ul>
-<li>The Tab Module uses Node's event Emitter for event handling.</li>
-<li>The Template Generator uses EJS, but you can generate your own mark up</li>
-<li>The less file is located in <code>resources/stylesheets</code>
-</li>
-</ul>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/typesettin/stylie.tabs">Stylie.tabs</a> is maintained by <a href="https://github.com/typesettin">typesettin</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
 </html>
-
