@@ -2,7 +2,7 @@
   "title": "Stylie Tab Components",
   "name": "stylie.tabs",
   "description": "100% width tabbed content with some example media queries for smaller screens.",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "main": "index.js",
   "engines": {
     "node": ">=0.10.x"
